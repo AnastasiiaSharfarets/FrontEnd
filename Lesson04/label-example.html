@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma2</title>
+</head>
+<body>
+    <form action="#" method="POST" class="firstexample">
+        <label for="firstname">First name</label>
+    <input type="text" name="firstname" id="firstname">
+<br>
+    <input type="checkbox" name="subscribe" id="subscribe">
+    <label for="subscribe">Subscribe to newsletters</label>
+    
+    </form>   
+
+    <form action="#" class="mysecondlabel">
+
+        <label>Please subscribe
+            <input type="checkbox" name="mycheck" id="mycheck">
+        </label>
+    </form>
+
+    <form action="" method="post">
+        <label for="color">Favorite color?</label><br>
+        <input name="mycolor" id="mycolors" list="mycolors">
+    </form>
+    <datalist id="mycolors">
+        <option>Red</option>
+        <option>Yellow</option>
+        <option>Blue</option>
+        <option>Green</option>
+        <option>Orange</option>
+        <option>White</option>
+        <option value="Gray">Black</option>
+    </datalist>
+    <form action="" method="POST">
+        <input type="text" readonly placeholder="сам дурак" required name="" id=""><br>
+        <p>
+        <label> Фамилия с проверкой орфографии:
+            <input type="text"  spellcheck ="true" id="">
+        </label>
+        </p>
+        <p>
+            <label> Фамилия БЕЗ проверки орфорафии:
+                <input type="text" spellcheck="false" name="" id="">
+            </label>
+        </p>
+    </form>
+</body>
+</html>
