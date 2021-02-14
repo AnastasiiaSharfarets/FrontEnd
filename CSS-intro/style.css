@@ -1,0 +1,25 @@
+body{
+background-color: aquamarine;
+}
+p::first-line{
+    color: royalblue;
+}
+p::first-letter{
+    background-color: red;
+    font-size: lager;
+    text-transform: uppercase;
+}
+#myfirstID{
+    color: black;
+    background-color: white;
+}
+.myLovelyParagrath{
+    font-size: 10px;
+    background-color: beige;
+}
+a[href="http://andron13.de"]{
+    color: deeppink;
+}
+p:hover{
+    background: red url(https://andron13.de/img/blog/berlin-sw-01.jpg);
+}
