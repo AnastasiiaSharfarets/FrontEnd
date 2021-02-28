@@ -1,0 +1,28 @@
+p{
+   font-size: 20px;
+}
+.box-one{
+    background-color: #eb5757;
+    border: 30px solid #9b51e0;
+    padding: 10px;
+    margin: 60px 0px 90px 60px ;
+    height: 100px;
+    width: 100px;
+    /* box-sizing: border-box; */
+}
+.box-two{
+    background-color: #2d9cdb;
+    border: 30px solid #27ae60;
+    padding: 10px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+}
+.box-three{
+    background-color: #48c167;
+    border: 30px solid #e3e014;
+    padding: 10px;
+    margin: 60px;
+    height: 100px;
+    width: 100px;
+}
